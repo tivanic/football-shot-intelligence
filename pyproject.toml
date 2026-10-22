@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "football-shot-intelligence"
+version = "0.1.0"
+description = "Football-specific deep-learning and computer-vision pipeline for automatic shot detection and highlight extraction."
+readme = "README.md"
+requires-python = ">=3.11"
+
+authors = [
+    { name = "Tomislav Ivanić" }
+]
+
+license = { text = "MIT" }
+
+dependencies = [
+    "ultralytics",
+    "opencv-python",
+    "pandas",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
