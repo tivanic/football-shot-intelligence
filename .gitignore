@@ -10,10 +10,13 @@ data/input/*
 data/output/*
 !data/output/.gitkeep
 
+# Downloaded pretrained YOLO weights
+yolo*.pt
+
 # Ultralytics output
 runs/
 
 # OS / IDE
 .DS_Store
 Thumbs.db
-.vscode/New-Item data\input\.gitkeep -ItemType File
+.vscode/

@@ -207,8 +207,6 @@ football-shot-intelligence/
 │   ├── input/
 │   └── output/
 │
-├── assets/
-│
 ├── requirements.txt
 ├── .gitignore
 ├── LICENSE

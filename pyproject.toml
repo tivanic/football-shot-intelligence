@@ -13,7 +13,7 @@ authors = [
     { name = "Tomislav Ivanić" }
 ]
 
-license = { text = "MIT" }
+license = { text = "AGPL-3.0" }
 
 dependencies = [
     "ultralytics",
